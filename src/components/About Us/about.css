@@ -1,0 +1,34 @@
+#about {
+  padding-top: 50px;
+}
+.about h1 {
+  text-align: center;
+  font-family: "Madimi One", sans-serif;
+  color: #a60fad !important;
+  font-size: 40px;
+  border-bottom: #a60fad solid 3px;
+  height: 70px;
+}
+.aboutData {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+.aboutBlock {
+  background: #a60fad;
+  width: 500px;
+  height: 350px;
+  border-radius: 5px;
+}
+.aboutBlock img {
+  width: 460px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin: 20px;
+}
+.about-text h3 {
+  line-height: 23px;
+  font-family: sans-serif;
+  color: #a60fad;
+  margin-top: 30px;
+}

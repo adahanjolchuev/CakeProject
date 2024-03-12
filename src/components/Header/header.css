@@ -1,0 +1,32 @@
+#header {
+  background: #a60fad !important;
+  box-shadow: 2px 1px 3px black;
+  padding: 2px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  font-family: "Madimi One", sans-serif;
+  color: white;
+  font-weight: 900;
+}
+nav {
+  display: flex;
+  gap: 30px;
+}
+nav a {
+  font-weight: 600;
+  color: white;
+  font-family: "Madimi One", sans-serif;
+}
+.header p {
+  font-size: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
