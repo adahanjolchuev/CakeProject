@@ -1,0 +1,24 @@
+.work h1 {
+  text-align: center;
+  color: #a60fad;
+  font-size: 45px;
+  font-weight: 900;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.workBlock {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  gap: 30px;
+}
+.workBlock img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border: solid 4px #a60fad;
+  border-radius: 5px;
+}

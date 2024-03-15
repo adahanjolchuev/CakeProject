@@ -1,0 +1,24 @@
+.outAbout {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 0 50px 0;
+}
+.outAbout-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: #a60fad dashed 4px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.outAbout h1 {
+  text-align: center;
+  color: #a60fad;
+}
+.outAbout p {
+  font-size: 20px;
+  color: black;
+}
