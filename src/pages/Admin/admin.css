@@ -1,0 +1,35 @@
+.admin {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  gap: 20px;
+}
+.admin h1 {
+  color: #a60fad;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputs input {
+  padding: 10px 20px;
+  border: #a60fad solid 3px;
+  border-radius: 5px;
+  width: 300px;
+  outline: none;
+  color: #a60fad;
+}
+.admin button {
+  padding: 10px 20px;
+  border: #a60fad solid 3px;
+  border-radius: 5px;
+  background: transparent;
+  color: #a60fad;
+}
+input::placeholder {
+  color: #a60fad;
+}

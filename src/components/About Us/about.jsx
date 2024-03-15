@@ -6,7 +6,7 @@ function About() {
     <div id="about">
       <div className="container">
         <div className="about">
-          <h1>About Us</h1>
+          <h1>О нас</h1>
           <div className="aboutData">
             <div className="aboutBlock">
               <img
@@ -16,19 +16,14 @@ function About() {
             </div>
             <div className="about-text">
               <h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatibus eos tempore asperiores odio error. Beatae optio,
-                veritatis deleniti dolores molestias atque corrupti ipsam veniam
-                sapiente esse magni, cum, iusto sint perspiciatis incidunt vitae
-                eligendi mollitia placeat earum? Pariatur consectetur reiciendis
-                alias rerum repudiandae maiores iure sit debitis amet at
-                adipisci, maxime odio, assumenda id itaque a deleniti. Dolorum,
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
-                laborum natus accusamus quos culpa ea nesciunt blanditiis
-                distinctio, labore suscipit incidunt error mollitia beatae ipsum
-                repellat! Facere sit quisquam perspiciatis iure vel voluptatem
-                eveniet, dolorem mollitia nam, recusandae libero maiores. illum
-                modi.
+              Создаем сладости вручную из натуральных ингредиентов, чтобы Вы могли
+порадовать себя в любой день, даже если нет особого повода. Наполняйте свою жизнь
+яркими сбалансированными вкусами вместе с «Парфе»!
+Нас выбирают для уютных дружеских встреч, шумных праздников, романтических
+вечеров, особенных вечеров в кругу семьи и просто для того, чтобы побаловать себя.
+Специально для Вас мы каждый день создаем тортики и десерты, которые можно купить
+на нашем производстве, где Вас ждет самый большой ассортимент на любой вкус, по
+адресу: пр. Комсомольский 68/2.
               </h3>
             </div>
           </div>

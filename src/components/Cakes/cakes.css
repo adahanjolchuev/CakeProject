@@ -1,24 +1,60 @@
-#cakes {
-  padding-top: 50px;
+.cakes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .cakes h2 {
-  text-align: center;
   font-family: "Madimi One", sans-serif;
   color: #a60fad !important;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 40px;
   height: 70px;
 }
-.cakesBlock {
+.cakesBlocks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 70px 110px;
+  margin: 10px 0;
+}
+.cakeBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #a60fad;
-  width: 360px;
-  height: 400px;
+  width: 340px;
+  height: 340px;
   border-radius: 5px;
 }
-.cakesBlock img {
+.cakeBlock img {
   margin: 15px 29px;
   width: 300px;
-  height: 270px;
+  height: 250px;
   object-fit: cover;
   border-radius: 5px;
+}
+
+.cakeBlock h3 {
+  color: white;
+}
+.cakeBlock h4 {
+  color: white;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.cakes button {
+  padding: 10px 20px;
+  background: transparent;
+  border-radius: 5px;
+  border: solid 3px #a60fad;
+  color: #a60fad;
+  margin: 20px 0;
+  width: 300px;
+  height: 50px;
+}
+.cakes button:hover {
+  background: #a60fad;
+  color: white;
+  transition: 0.5s;
 }

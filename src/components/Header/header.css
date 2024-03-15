@@ -2,6 +2,9 @@
   background: #a60fad !important;
   box-shadow: 2px 1px 3px black;
   padding: 2px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 .header {
   display: flex;
@@ -21,7 +24,9 @@ nav a {
   font-weight: 600;
   color: white;
   font-family: "Madimi One", sans-serif;
+  font-size: 22px;
 }
+
 .header p {
   font-size: 25px;
   color: white;

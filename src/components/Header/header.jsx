@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { CgProfile } from "react-icons/cg";
 import { FaHeart } from "react-icons/fa";
 import "./header.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 function Header() {
   const nav = useNavigate();
   //adahan
+
   return (
     <div id="header">
       <div className="container">
@@ -15,10 +16,10 @@ function Header() {
             Сладости <br /> Амины
           </h1>
           <nav>
-            <Link to={'/'}>Home</Link>
-            <a href="#">About Us</a>
-            <a href="#">Cakes</a>
-            <a href="#">Contact</a>
+            <Link to={"/"}>Главная</Link>
+            <NavLink>О нас</NavLink>
+            <a href="#">Торты</a>
+            <a href="#">Контакт</a>
           </nav>
           <div
             className=""
