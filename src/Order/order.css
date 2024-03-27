@@ -1,0 +1,85 @@
+#order {
+  padding: 10px;
+}
+.order {
+  padding: 10px;
+}
+
+.orderblock {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin: 20px 0;
+}
+
+.orderblock img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: #a60fad 4px solid;
+}
+.order_text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0;
+}
+.order_text h2 {
+  width: 300px;
+}
+.order_text h2:hover {
+  text-decoration-line: underline;
+  transition: 0.3s;
+}
+.order_text button {
+  height: 40px;
+  margin-top: 35px;
+  background: #a60fad;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  width: 200px;
+}
+
+.orderblocks {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  max-height: 500px;
+  overflow-y: auto;
+}
+#total {
+  background: white;
+  color: white;
+  border-bottom: #a60fad 4px solid;
+  height: 35px;
+  position: static;
+}
+#total h3 {
+  color: #a60fad;
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderblocks::-webkit-scrollbar {
+  display: block;
+  width: 5px;
+  border-radius: 10px;
+  height: 20px;
+}
+
+.orderblocks::-webkit-scrollbar-track {
+  display: block;
+}
+
+.recomandionCakes {
+  display: flex;
+}
+.recomandionCake img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}

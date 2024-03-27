@@ -2,6 +2,7 @@
   width: 80%;
   height: 67vh;
   transition: 0.3s;
+  margin: 20px auto;
 }
 
 .swiper-slide {
@@ -54,10 +55,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: cover;
 }
 .sliderText {
   background: #a60fad;
   padding: 20px;
+  width: 500px;
   height: 225px;
   color: white;
   text-align: center;
@@ -65,8 +68,23 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  z-index: 99;
 }
 .sliderText p {
   color: rgb(240, 230, 230);
+  width: 450px;
+}
+.otzyvy button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  background: transparent;
+  color: white;
+  width: 300px;
+  background: #a60fad;
+  border: none;
+}
+.otzyvy button:hover {
+  color: white;
+  background: #a60fad;
+  transition: 0.3s;
 }

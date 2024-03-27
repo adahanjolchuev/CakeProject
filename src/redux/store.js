@@ -1,8 +1,12 @@
 import { combineReducers, createStore } from "redux";
-import { adminAction } from "./reducer/adminAction";
+import { AdminAction } from "./reducer/adminAction";
+import { ReviewsAction } from "./reducer/reviews";
+import OrderAction from "./reducer/orderAction";
 
 
 
 export const store = createStore(combineReducers({
-    cake: adminAction
+    cake: AdminAction,
+    reviews : ReviewsAction,
+    order : OrderAction,
 }))

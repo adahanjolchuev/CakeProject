@@ -30,11 +30,17 @@
 .cakeBlock img {
   margin: 15px 29px;
   width: 300px;
-  height: 250px;
+  height: 210px;
   object-fit: cover;
   border-radius: 5px;
 }
 
+.cakeBlock:hover {
+  transition: 0.3s;
+  -webkit-box-shadow: -1px 4px 25px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 4px 25px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 4px 25px 1px rgba(0, 0, 0, 0.75);
+}
 .cakeBlock h3 {
   color: white;
 }
@@ -53,8 +59,17 @@
   width: 300px;
   height: 50px;
 }
-.cakes button:hover {
-  background: #a60fad;
+.cakeBlock button {
+  background: transparent;
+  border: #fff solid 3px;
   color: white;
   transition: 0.5s;
+  font-weight: 700;
+  background: #a60fad;
+}
+.cakeBlock button:hover {
+  background: white;
+  color: #a60fad;
+  transition: 0.5s;
+  font-weight: 700;
 }
