@@ -1,0 +1,90 @@
+.detalCakes {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+.detalCakes img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.detalText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.detalText h3 {
+  color: black;
+}
+.detalText button {
+  width: 180px;
+  padding: 10px 0;
+  /* padding: 10px 15px;/ */
+  border-radius: 5px;
+  background: #a60fad;
+  color: white;
+}
+.detalText button:hover {
+  background: #a60fad;
+  color: white;
+}
+.detalText p {
+  color: black;
+  width: 500px;
+}
+.detalText h4 {
+  color: black;
+}
+.detalText h5 {
+  color: black;
+  font-size: 20px;
+}
+.countBtns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.countBtns button {
+  max-width: 1px;
+  max-height: 70px;
+  padding: 2px 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+.countBtns h5 {
+  color: black;
+  font-size: 15px;
+}
+.recomandionCakes {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  gap: 50px;
+  overflow: scroll;
+}
+.recomandationCakester {
+  margin: 40px 0;
+  width: 350px;
+  height: 340px;
+  background: #a60fad;
+  border-radius: 5px;
+  box-shadow: rgb(182, 172, 172) 3px 4px 9px;
+  padding: 15px;
+}
+.recomandationCakester img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.recomandationCakester h2 {
+  color: white;
+  margin: 8px 0;
+  font-size: 18px;
+}
+.recomandationCakester h3 {
+  color: white;
+  font-size: 17px;
+}

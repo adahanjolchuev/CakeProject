@@ -11,14 +11,23 @@
 }
 .workBlock {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  overflow: auto;
   gap: 30px;
 }
+.imageDiv {
+  overflow: hidden;
+  border: solid 4px #a60fad;
+  border-radius: 10px;
+}
 .workBlock img {
-  width: 400px;
+  width: 380px;
   height: 300px;
   object-fit: cover;
-  border: solid 4px #a60fad;
   border-radius: 5px;
+}
+.workBlock img:hover {
+  transform: scale(1.07);
+  transition: 0.9s;
+  border: #a60fad 3px solid;
 }

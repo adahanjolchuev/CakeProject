@@ -1,7 +1,6 @@
 #header {
   background: #a60fad !important;
   box-shadow: 2px 1px 3px black;
-  padding: 2px;
   position: sticky;
   top: 0;
   z-index: 99;
@@ -19,19 +18,35 @@
 nav {
   display: flex;
   gap: 30px;
-}
-nav a {
-  font-weight: 600;
-  color: white;
-  font-family: "Madimi One", sans-serif;
-  font-size: 22px;
+  transition: 0.3s;
+  a {
+    font-weight: 600;
+    color: white;
+    font-family: "Madimi One", sans-serif;
+    font-size: 21px;
+  }
 }
 
 .header p {
-  font-size: 25px;
+  font-size: 23px;
   color: white;
   display: flex;
   align-items: center;
-  padding: 5px;
+  /* padding: 5px; */
   border-radius: 5px;
+  gap: 2px;
+}
+.orderPages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.orderPages h6 {
+  font-size: 14px;
+  color: white;
+}
+
+.orderPages:hover {
+  transform: translateY(-6px);
+  transition: 0.4s;
 }

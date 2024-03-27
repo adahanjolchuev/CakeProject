@@ -1,0 +1,50 @@
+.review {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 150px;
+  padding: 50px 0;
+}
+.addReviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.addReviews h2 {
+  font-size: 30px;
+  color: #a60fad;
+  font-weight: 200;
+}
+.addReviews input {
+  width: 500px;
+  color: #a60fad;
+  border-bottom: #a60fad solid 3px;
+}
+.addReviews input:hover {
+  border-bottom: #a60fad solid 3px;
+}
+.addReviews input::placeholder {
+  color: #a60fad;
+}
+.addReviews button {
+  padding: 10px 20px;
+  color: white;
+}
+.addReviews button:hover {
+  color: white;
+  background: #a60fad;
+}
+.addOtzyv {
+  background: #a60fad;
+  padding: 10px 20px;
+}
+.addOtzyv:hover {
+  background: #a60fad;
+  color: white;
+}
+.addOtzyvy button:hover {
+  background: #a60fad;
+  color: white;
+}

@@ -1,34 +1,45 @@
 #about {
   padding-top: 50px;
+  height: 70vh;
 }
+
 .about h1 {
   text-align: center;
   font-family: "Madimi One", sans-serif;
   color: #a60fad !important;
   font-size: 40px;
   border-bottom: #a60fad solid 3px;
+  width: 1180px;
   height: 70px;
 }
 .aboutData {
   display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
   gap: 50px;
   margin-top: 30px;
 }
 .aboutBlock {
   background: #a60fad;
-  width: 500px;
-  height: 350px;
+  width: 450px;
+  height: 300px;
   border-radius: 5px;
+  overflow: hidden;
 }
 .aboutBlock img {
-  width: 460px;
+  width: 475px;
   border-radius: 5px;
   object-fit: cover;
-  margin: 20px;
 }
+
 .about-text h3 {
-  line-height: 23px;
+  width: 750px;
+  line-height: 30px;
   font-family: sans-serif;
+  font-weight: 300;
   color: #a60fad;
-  margin-top: 30px;
+}
+.aboutBlock img:hover {
+  transform: scale(1.1);
+  transition: 0.9s;
 }
